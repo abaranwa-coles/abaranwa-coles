@@ -1,5 +1,5 @@
 function calculator(str) {
-  //regex to match numbers and operators
+  //regex to match numbers and operators2
     var regex = /(\d+)(\+|\-|\*|\/)(\d+)/;
   //match the string to get the numbers and operator
     var match = str.match(regex);
